@@ -60,7 +60,7 @@
 
 <br>
 
-  <b>Total Value = (Brawler + Upgrade + Gadget + SP + HC + Gear + FullSet + Trophy)</b>
+  <b>total = brawler_value + upgrade_value + gadget_value + sp_value + hc_value + gear_value + fullset_value + trophy_value</b>
   <br>
   <small>*모든 수치는 48 배율을 적용하여 산출됩니다.</small>
 
