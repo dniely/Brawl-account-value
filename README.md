@@ -7,9 +7,7 @@
   <img src="https://img.shields.io/badge/Ruby_on_Rails-CC0000?style=for-the-badge&logo=ruby-on-rails&logoColor=white">
   <img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white">
   <img src="https://img.shields.io/badge/Brawl_Stars_API-000000?style=for-the-badge&logo=supercell&logoColor=white">
-  <div>
-    <a href="https://brawl-account-value.onrender.com" target="_blank">
-      <img src="https://img.shields.io/badge/PLAY%20NOW-FFCC00?style=for-the-badge&logo=brawlstars&logoColor=black">
-    </a>
-  </div>
+  <a href="https://brawl-account-value.onrender.com" target="_blank">
+  <img src="https://img.shields.io/badge/BRAWL%20NOW-FFCC00?style=for-the-badge&logo=supercell&logoColor=black">
+  </a>
 </div>
