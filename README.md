@@ -8,7 +8,9 @@
   <img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white">
   <img src="https://img.shields.io/badge/Brawl_Stars_API-000000?style=for-the-badge&logo=supercell&logoColor=white">
   <br>
-  <a href="https://brawl-account-value.onrender.com" target="_blank">
-  <img src="https://img.shields.io/badge/CHECK%20MY%20VALUE-8E44AD?style=for-the-badge&logo=target&logoColor=white">
-  </a>
+  <div align="center">
+    <a href="https://brawl-account-value.onrender.com" target="_blank">
+      <img src="https://img.shields.io/badge/BRAWL%20NOW-FFCC00?style=for-the-badge&logo=supercell&logoColor=black" width="350">
+    </a>
+  </div>
 </div>
