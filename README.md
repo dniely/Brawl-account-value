@@ -28,7 +28,7 @@
     <tbody>
       <tr>
         <td><b>브롤러 기본</b></td>
-        <td><code>count * 6.5 * 48</code></td>
+        <td><code>count * 6.5</code></td>
         <td>기본 보유 가치</td>
       </tr>
       <tr>
@@ -43,7 +43,7 @@
       </tr>
       <tr>
         <td><b>하이퍼차지</b></td>
-        <td><code>HyperCharge(7.9) * 48</code></td>
+        <td><code>HyperCharge(7.9)</code></td>
         <td>최고 희귀도 아이템 반영</td>
       </tr>
       <tr>
@@ -53,7 +53,7 @@
       </tr>
       <tr>
         <td><b>트로피</b></td>
-        <td><code>Total Trophies * 0.02 * 48</code></td>
+        <td><code>Total Trophies * 0.02</code></td>
         <td>플레이 숙련도 반영</td>
       </tr>
     </tbody>
