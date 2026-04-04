@@ -31,7 +31,7 @@
       </tr>
       <tr>
         <td><b>파워 레벨</b></td>
-        <td><code>Lv.11(8점) / Lv.10(5점) / 그외(1점)</code></td>
+        <td><code>Lv.11(8) / Lv.10(5) / else(1)</code></td>
         <td>육성도에 따른 차등 점수</td>
       </tr>
       <tr>
