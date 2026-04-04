@@ -12,31 +12,63 @@
     </a>
   </div>
   <hr>
-<h2 align="center">📊 가치 산정 알고리즘 (Calculation Logic)</h2>
-<p align="center">이 프로젝트는 플레이어의 데이터를 기반으로 아래와 같은 독자적인 알고리즘을 통해 계정 가치를 산출합니다.</p>
 
-<table align="center">
-  <tr>
-    <th align="center">항목</th>
-    <th align="center">계산 방식</th>
-    <th align="center">설명</th>
-  </tr>
-  <tr>
-    <td align="center"><b>Brawlers</b></td>
-    <td align="center">개수 × 5,000</td>
-    <td>보유한 브롤러의 기본 가치</td>
-  </tr>
-  <tr>
-    <td align="center"><b>Trophies</b></td>
-    <td align="center">총 점수 × 10</td>
-    <td>노력과 실력을 반영한 가치</td>
-  </tr>
-  <tr>
-    <td align="center"><b>Levels</b></td>
-    <td align="center">Σ(파워 레벨 × 1,000)</td>
-    <td>브롤러 육성도를 반영한 가치</td>
-  </tr>
-</table>
+<h2 align="center">⚖️ 정밀 가치 산정 로직</h2>
+<p align="center">본 서비스는 브롤스타즈 API에서 추출한 데이터를 바탕으로 아래와 같은 세부 가중치를 적용합니다.</p>
+
+<div align="center">
+  <table style="margin-left: auto; margin-right: auto;">
+    <thead>
+      <tr>
+        <th>항목</th>
+        <th>계산 공식 (Ruby Logic)</th>
+        <th>가중치 설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><b>브롤러 기본</b></td>
+        <td><code>count * 6.5 * 48</code></td>
+        <td>기본 보유 가치</td>
+      </tr>
+      <tr>
+        <td><b>파워 레벨</b></td>
+        <td><code>Lv.11(8점) / Lv.10(5점) / 그외(1점)</code></td>
+        <td>육성도에 따른 차등 점수</td>
+      </tr>
+      <tr>
+        <td><b>가젯/스타파워</b></td>
+        <td><code>Gadget(1.8) / StarPower(3.2)</code></td>
+        <td>장착 아이템 개수당 가산</td>
+      </tr>
+      <tr>
+        <td><b>하이퍼차지</b></td>
+        <td><code>HyperCharge(7.9) * 48</code></td>
+        <td>최고 희귀도 아이템 반영</td>
+      </tr>
+      <tr>
+        <td><b>기어/풀셋</b></td>
+        <td><code>Gear(1.4) / FullSet(12)</code></td>
+        <td>추가 커스텀 및 세트 완성도</td>
+      </tr>
+      <tr>
+        <td><b>트로피</b></td>
+        <td><code>Total Trophies * 0.02 * 48</code></td>
+        <td>플레이 숙련도 반영</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<br>
+
+<blockquote align="center">
+  <b>Total Value = (Brawler + Upgrade + Gadget + SP + HC + Gear + FullSet + Trophy)</b>
+  <br>
+  <small>*모든 수치는 실제 게임 내 재화 가치를 기준으로 48의 배율을 적용하여 산출됩니다.</small>
+</blockquote>
+
+<br>
 
 <br>
 
