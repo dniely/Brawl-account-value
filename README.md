@@ -12,8 +12,6 @@
     </a>
   </div>
   <hr>
-
-<h2 align="center">가치 산정 로직</h2>
 <p align="center">본 서비스는 브롤스타즈 API에서 추출한 데이터를 바탕으로 아래와 같은 세부 가중치를 적용합니다.</p>
 
 <div align="center">
