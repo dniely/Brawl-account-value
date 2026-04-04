@@ -10,7 +10,7 @@
   <br>
   <div align="center">
     <a href="https://brawl-account-value.onrender.com" target="_blank">
-      <img src="https://img.shields.io/badge/BRAWL%20NOW-FFCC00?style=for-the-badge&logo=supercell&logoColor=black" width="350">
+      <img src="https://raw.githubusercontent.com/Dniely/Brawl-account-value/main/public/play_button.png" width="400">
     </a>
   </div>
 </div>
