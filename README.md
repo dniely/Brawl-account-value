@@ -1,8 +1,5 @@
 <div align="center">
   <h1 align="center">Brawl Stars Account Value Calculator</h1>
-  <p align="center">
-    <b>브롤스타즈 계정의 실시간 가치를 원으로 계산</b>
-  </p>
 
   <img src="https://img.shields.io/badge/Ruby_on_Rails-CC0000?style=for-the-badge&logo=ruby-on-rails&logoColor=white">
   <img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white">
