@@ -18,6 +18,10 @@
 ```bash
 git clone https://github.com/dniely/Brawl-account-value.git
 cd Brawl-account-value
+
 bundle install
+
 echo "BRAWL_API_KEY=your_key_here" > .env
+
 bundle exec rails s
+
