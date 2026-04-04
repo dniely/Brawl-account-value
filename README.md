@@ -9,8 +9,8 @@
   <img src="https://img.shields.io/badge/Brawl_Stars_API-000000?style=for-the-badge&logo=supercell&logoColor=white">
   <br>
   <div align="center">
-    <a href="https://brawl-account-value.onrender.com" target="_blank">
-      <img src="https://raw.githubusercontent.com/Dniely/Brawl-account-value/main/public/play_button.png" width="400">
+    <a href="https://brawlvalue.onrender.com/" target="_blank">
+      <img src="https://img.shields.io/badge/CHECK%20MY%20VALUE-8E44AD?style=for-the-badge&logo=target&logoColor=white" width="350">
     </a>
   </div>
 </div>
