@@ -46,23 +46,3 @@
   <br><br>
   <img width="60%" alt="Mobile View" src="https://github.com/user-attachments/assets/59671ff4-95ac-4b75-a916-5b8058add600" />
 </div>
-
-<hr>
-
-## ⚙️ Local Setup
-<details>
-<summary><b>실행 방법 보기 (클릭)</b></summary>
-<pre><code>
-git clone https://github.com/dniely/Brawl-account-value.git
-cd Brawl-account-value
-bundle install
-echo "BRAWL_API_KEY=your_key" > .env
-bundle exec rails s
-</code></pre>
-</details>
-
-<hr>
-
-<div align="center">
-  <p>UI/UX Design assisted by AI | Core Logic by <b>dniely</b></p>
-</div>
