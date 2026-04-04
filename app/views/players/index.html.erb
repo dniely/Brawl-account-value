@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>브롤스타즈 통계 조회</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;700&display=swap');
+    body { font-family: 'Noto Sans KR', sans-serif; }
+    h1 { font-weight: 700; }
+  </style>
+</head>
+<body class="bg-gray-50">
+  <div class="min-h-screen flex items-center justify-center px-4">
+    <div class="w-full max-w-md">
+      <div class="bg-white rounded-lg border border-gray-200 p-8 shadow-sm">
+        <h1 class="text-3xl font-bold mb-2 text-center text-gray-800">브롤스타즈</h1>
+        <p class="text-center text-gray-600 text-sm mb-8">계정 가치 조회</p>
+        <%= form_with url: "/search", method: :post, data: { turbo: false } do |f| %>
+          <div class="space-y-4">
+            <div>
+              <%= f.text_field :tag, 
+                  placeholder: "#80JLU2QG9", 
+                  class: "w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 uppercase",
+                  id: "tag_input" %>
+            </div>
+            
+            <div>
+              <%= f.submit "검색", 
+                  class: "w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 font-medium transition cursor-pointer" %>
+            </div>
+          </div>
+        <% end %>
+        <p class="text-center text-gray-500 text-xs mt-6">
+          플레이어 태그를 입력하면 계정가치를 조회할 수 있습니다.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const input = document.getElementById('tag_input');
+    if (input) {
+      input.addEventListener('input', function() {
+        this.value = this.value.toUpperCase();
+      });
+    }
+  </script>
+</body>
+</html>
