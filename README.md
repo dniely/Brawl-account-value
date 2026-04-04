@@ -11,6 +11,7 @@
       <img src="https://img.shields.io/badge/CHECK%20MY%20VALUE-8E44AD?style=for-the-badge&logo=target&logoColor=white" width="350">
     </a>
   </div>
+  <hr>
 <h2 align="center">📊 가치 산정 알고리즘 (Calculation Logic)</h2>
 <p align="center">이 프로젝트는 플레이어의 데이터를 기반으로 아래와 같은 독자적인 알고리즘을 통해 계정 가치를 산출합니다.</p>
 
