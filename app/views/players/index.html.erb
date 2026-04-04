@@ -17,7 +17,7 @@
       <div class="bg-white rounded-lg border border-gray-200 p-8 shadow-sm">
         <h1 class="text-3xl font-bold mb-2 text-center text-gray-800">브롤스타즈</h1>
         <p class="text-center text-gray-600 text-sm mb-8">계정 가치 조회</p>
-        <%= form_with url: "/search", method: :post, data: { turbo: false } do |f| %>
+          <%= form_with url: "/search", method: :get, data: { turbo: false } do |f| %>
           <div class="space-y-4">
             <div>
               <%= f.text_field :tag, 
