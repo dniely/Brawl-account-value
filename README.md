@@ -63,15 +63,7 @@
 <blockquote align="center">
   <b>Total Value = (Brawler + Upgrade + Gadget + SP + HC + Gear + FullSet + Trophy)</b>
   <br>
-  <small>*모든 수치는 실제 게임 내 재화 가치를 기준으로 48의 배율을 적용하여 산출됩니다.</small>
+  <small>*모든 수치는 48 배율을 적용하여 산출됩니다.</small>
 </blockquote>
-
-<br>
-
-<br>
-
-<div align="center">
-  <p><i>"단순한 조회를 넘어, 데이터 사이의 상관관계를 분석하여 최적의 가치를 도출합니다."</i></p>
-</div>
 
 </div>
