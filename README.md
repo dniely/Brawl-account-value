@@ -19,40 +19,33 @@
     <thead>
       <tr>
         <th>항목</th>
-        <th>계산 공식 (Ruby Logic)</th>
-        <th>가중치 설명</th>
+        <th>계산 공식</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><b>브롤러 기본</b></td>
         <td><code>count * 6.5</code></td>
-        <td>기본 보유 가치</td>
       </tr>
       <tr>
         <td><b>파워 레벨</b></td>
         <td><code>Lv.11(8) / Lv.10(5) / else(1)</code></td>
-        <td>육성도에 따른 차등 점수</td>
       </tr>
       <tr>
         <td><b>가젯/스타파워</b></td>
         <td><code>Gadget(1.8) / StarPower(3.2)</code></td>
-        <td>장착 아이템 개수당 가산</td>
       </tr>
       <tr>
         <td><b>하이퍼차지</b></td>
         <td><code>HyperCharge(7.9)</code></td>
-        <td>최고 희귀도 아이템 반영</td>
       </tr>
       <tr>
         <td><b>기어/풀셋</b></td>
         <td><code>Gear(1.4) / FullSet(12)</code></td>
-        <td>추가 커스텀 및 세트 완성도</td>
       </tr>
       <tr>
         <td><b>트로피</b></td>
         <td><code>Total Trophies * 0.02</code></td>
-        <td>플레이 숙련도 반영</td>
       </tr>
     </tbody>
   </table>
