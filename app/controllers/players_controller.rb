@@ -3,6 +3,7 @@ class PlayersController < ApplicationController
   end
 
   def search
+    puts "RENDER_SERVER_IP: #{HTTParty.get('https://api.ipify.org').body}"
     tag = params[:tag]
 
     if tag.blank?
