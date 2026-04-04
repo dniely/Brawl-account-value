@@ -13,15 +13,3 @@
 
 ### 🔗 Live Demo
 > **[서비스 바로가기](https://brawl-account-value.onrender.com)**
-
-## ⚙️ 실행 방법 (Local)
-```bash
-git clone https://github.com/dniely/Brawl-account-value.git
-cd Brawl-account-value
-
-bundle install
-
-echo "BRAWL_API_KEY=your_key_here" > .env
-
-bundle exec rails s
-
