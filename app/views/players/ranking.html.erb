@@ -28,8 +28,8 @@
             <tr class="bg-gray-50/50 border-b border-gray-100">
               <th class="px-8 py-5 text-xs font-bold text-gray-400 uppercase tracking-wider text-center">순위</th>
               <th class="px-8 py-5 text-xs font-bold text-gray-400 uppercase tracking-wider">플레이어</th>
-              <th class="px-8 py-5 text-xs font-bold text-gray-400 uppercase tracking-wider text-right">트로피</th>
               <th class="px-8 py-5 text-xs font-bold text-gray-400 uppercase tracking-wider text-right">계정 가치</th>
+              <th class="px-8 py-5 text-xs font-bold text-gray-400 uppercase tracking-wider text-right">트로피</th>
             </tr>
           </thead>
           <tbody class="divide-y divide-gray-50">
@@ -50,14 +50,14 @@
                     <span class="text-xs text-gray-400 font-mono"><%= account.tag %></span>
                   </div>
                 </td>
+                <td class="px-8 py-6 text-right font-bold text-blue-600">
+                  <span class="text-lg"><%= number_with_delimiter(account.value) %></span>
+                  <span class="text-xs ml-1 opacity-70">WON</span>
+                </td>
                 <td class="px-8 py-6 text-right">
                   <div class="inline-flex items-center gap-1.5 font-semibold text-gray-700">
                     <%= number_with_delimiter(account.trophies) %>
                   </div>
-                </td>
-                <td class="px-8 py-6 text-right font-bold text-blue-600">
-                  <span class="text-lg"><%= number_with_delimiter(account.value) %></span>
-                  <span class="text-xs ml-1 opacity-70">WON</span>
                 </td>
               </tr>
             <% end %>
@@ -67,7 +67,7 @@
 
       <% if @rankers.empty? %>
         <div class="py-32 text-center">
-          <div class="text-5xl mb-4">🌵</div>
+          <div class="text-5xl mb-4"></div>
           <p class="text-gray-400 font-medium text-lg">아직 등록된 유저가 없습니다.<br>검색을 통해 첫 랭커가 되어보세요!</p>
         </div>
       <% end %>
