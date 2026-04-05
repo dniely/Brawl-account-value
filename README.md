@@ -1,5 +1,6 @@
 ![Ruby](https://img.shields.io/badge/Ruby-4.0-red)
 ![Rails](https://img.shields.io/badge/Rails-8.1-red)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?logo=tailwind-css&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue)
 ![Render](https://img.shields.io/badge/Deploy-Render-purple)
 
@@ -10,6 +11,7 @@
   <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white">
   <img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white">
   <img src="https://img.shields.io/badge/Brawl_Stars_API-000000?style=for-the-badge&logo=supercell&logoColor=white">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="40"/>
   <br>
   <br>
   
