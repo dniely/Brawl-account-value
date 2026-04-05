@@ -17,7 +17,8 @@
       <div class="bg-white rounded-lg border border-gray-200 p-8 shadow-sm">
         <h1 class="text-3xl font-bold mb-2 text-center text-gray-800">브롤스타즈</h1>
         <p class="text-center text-gray-600 text-sm mb-8">계정 가치 조회</p>
-          <%= form_with url: "/search", method: :get, data: { turbo: false } do |f| %>
+        
+        <%= form_with url: "/search", method: :get, data: { turbo: false } do |f| %>
           <div class="space-y-4">
             <div>
               <%= f.text_field :tag, 
@@ -26,12 +27,17 @@
                   id: "tag_input" %>
             </div>
             
-            <div>
-              <%= f.submit "검색", 
-                  class: "w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 font-medium transition cursor-pointer" %>
+            <div class="flex flex-col gap-3">
+              <%= f.submit "가치 측정하기", 
+                  class: "w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 font-bold transition cursor-pointer" %>
+              
+              <a href="/ranking" class="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 font-bold transition cursor-pointer flex items-center justify-center">
+                랭킹 보기
+              </a>
             </div>
           </div>
         <% end %>
+
         <p class="text-center text-gray-500 text-xs mt-6">
           플레이어 태그를 입력하면 계정가치를 조회할 수 있습니다.
         </p>

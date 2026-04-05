@@ -3,7 +3,6 @@ class PlayersController < ApplicationController
   end
 
   def search
-    puts "RENDER_SERVER_IP: #{HTTParty.get('https://api.ipify.org').body}"
     tag = params[:tag]
 
     if tag.blank?
@@ -13,7 +12,6 @@ class PlayersController < ApplicationController
 
     formatted_tag = tag.gsub("#", "")
     encoded_tag = URI.encode_www_form_component(formatted_tag)
-
     url = "https://api.brawlstars.com/v1/players/%23#{encoded_tag}"
 
     response = HTTParty.get(url, headers: {
@@ -22,8 +20,17 @@ class PlayersController < ApplicationController
 
     if response.code == 200
       @player = JSON.parse(response.body)
+      @total_value = Account.create_or_update_from_api(@player, "##{formatted_tag}")
     else
       @error = "플레이어를 찾을 수 없음"
     end
+  end
+
+  def ranking
+    @rankers = Account.order(value: :desc, trophies: :desc).limit(100)
+  end
+
+  def ranking
+    @rankers = Account.order(value: :desc, trophies: :desc).limit(50)
   end
 end
