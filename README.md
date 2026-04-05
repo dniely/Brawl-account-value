@@ -1,3 +1,8 @@
+![Ruby](https://img.shields.io/badge/Ruby-4.0-red)
+![Rails](https://img.shields.io/badge/Rails-8.1-red)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue)
+![Render](https://img.shields.io/badge/Deploy-Render-purple)
+
 <div align="center">
   <h1 align="center">Brawl Stars Account Value Calculator</h1>
 
