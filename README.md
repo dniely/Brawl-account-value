@@ -1,5 +1,5 @@
 ![Ruby](https://img.shields.io/badge/Ruby-4.0-red)
-![Rails](https://img.shields.io/badge/Rails-8.1-red)
+![Rails](https://img.shields.io/badge/Rails-7.0-red)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?logo=tailwind-css&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue)
 ![Render](https://img.shields.io/badge/Deploy-Render-purple)
